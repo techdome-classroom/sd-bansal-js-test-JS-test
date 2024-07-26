@@ -5,7 +5,6 @@ const decodeTheRing = function (s, p) {
     return false;
   }
 
-  // Loop through each character in the string and p
   for (let i = 0; i < s.length; i++) {
     // If the p character is '*', skip to the next character
     if (p[i] === "*") {
