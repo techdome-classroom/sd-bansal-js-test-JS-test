@@ -7,7 +7,7 @@ const decodeTheRing = function (s, p) {
 
   for (let i = 0; i < s.length; i++) {
     if (p[i] === "*") {
-      continue;
+       continue;
     }
     // If the characters do not match, return false
     if (s[i] !== p[i]) {
