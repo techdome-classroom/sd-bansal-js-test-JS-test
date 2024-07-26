@@ -7,15 +7,14 @@ const decodeTheRing = function (s, p) {
 
   for (let i = 0; i < s.length; i++) {
     if (p[i] === "*") {
-       continue;
+      continue;
     }
-    
+
     if (s[i] !== p[i]) {
       return false;
     }
   }
-
-  // If all characters match, return true
+  // And last mei sare match ho jye to
   return true;
 };
 
