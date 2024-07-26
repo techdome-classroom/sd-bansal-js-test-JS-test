@@ -1,7 +1,7 @@
 const getTotalIsles = function (grid) {
   // if (!grid || grid.length === 0) return 0;
 
-  // let total_island = 0;
+  // let to;tal_island = 0;
 
   // const row = grid.length;
   // const col = grid[0].length;
@@ -28,7 +28,7 @@ const getTotalIsles = function (grid) {
   //   }
   // }
 
-  // return totalIsles;
+  // return totalIsles
 
   let islands = 0;
   const rows = grid.length;
