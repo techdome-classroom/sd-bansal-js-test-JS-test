@@ -3,7 +3,7 @@ const getTotalIsles = function (grid) {
 
   let total_island = 0;
 
-  const numRows = grid.length;
+  const row = grid.length;
   const numCols = grid[0].length;
 
   const dfs = (i, j) => {
