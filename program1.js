@@ -41,5 +41,4 @@ function getTotalIsles(grid) {
   return islandCount;
 }
 
-// Export the function for use in other modules
 module.exports = getTotalIsles;
