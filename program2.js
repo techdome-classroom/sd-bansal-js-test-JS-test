@@ -14,9 +14,8 @@ const decodeTheRing = function (s, p) {
   const dp = Array.from({ length: m + 1 }, () => Array(n + 1).fill(false));
   
   // Base case
-  dp[0][0] = true; // Both empty
-  
-  // Handle patterns with leading *
+  dp[0][0] = true;// Both empty
+ 
   for (let j = 1; j <= n; j++) {
       if (p[j - 1] === '*') {
           dp[0][j] = dp[0][j - 1];
