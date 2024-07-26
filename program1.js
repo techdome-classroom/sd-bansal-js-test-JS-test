@@ -4,7 +4,7 @@ const getTotalIsles = function (grid) {
   let total_island = 0;
 
   const row = grid.length;
-  const numCols = grid[0].length;
+  const col = grid[0].length;
 
   const dfs = (i, j) => {
     if (i < 0 || j < 0 || i >= numRows || j >= numCols || grid[i][j] === "W")
