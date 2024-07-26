@@ -39,7 +39,7 @@ const getTotalIsles = function (grid) {
       return;
     }
 
-    grid[i][j] = "0";
+    grid[i][j] = "W";
 
     return dfs(i + 1, j) || dfs(i - 1, j) || dfs(i, j + 1) || dfs(i, j - 1);
   }
