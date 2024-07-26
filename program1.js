@@ -9,7 +9,7 @@ function getTotalIsles(grid) {
 
   function dfs(r, c) {
       const stack = [[r, c]];
-      const directions = [[-1, 0], [1, 0], [0, -1], [0, 1]]; // Up, Down, Left, Right
+      const directions = [[-1, 0], [1, 0], [0, -1], [0, 1]]; 
 
       while (stack.length > 0) {
           const [x, y] = stack.pop();
