@@ -1,20 +1,14 @@
-// const decodeTheRing = function (s, p) {
 
-//     // write your code here
-
-//   };
-  
-//   module.exports = decodeTheRing;
 
 const decodeTheRing = function (s, p) {
   const m = s.length;
   const n = p.length;
   
-  // Create a 2D DP table
+  
   const dp = Array.from({ length: m + 1 }, () => Array(n + 1).fill(false));
   
-  // Base case
-  dp[0][0] = true;// Both empty
+ 
+  dp[0][0] = true;
  
   for (let j = 1; j <= n; j++) {
       if (p[j - 1] === '*') {
